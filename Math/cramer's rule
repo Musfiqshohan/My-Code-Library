@@ -1,0 +1,8 @@
+    det=(a1*b2)%mod-(a2*b1)%mod;
+    det= (det+mod)%mod;
+
+    detX=(b2*c1)%mod-(b1*c2)%mod;
+    detX= (detX+mod)%mod;
+
+    detY=(a1*c2)%mod-(a2*c1)%mod;
+    detY=(detY+mod)%mod;

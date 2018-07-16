@@ -1,0 +1,6 @@
+
+angle between two points:
+It's just float angle = atan2(p1.y - p2.y, p1.x - p2.x).
+result = atan2 (y,x) * 180 / PI;
+Of course the return type is in radians, if you need it in degrees just do angle * 180 / PI
+
